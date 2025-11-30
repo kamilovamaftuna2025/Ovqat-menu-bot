@@ -15,7 +15,8 @@ bot.on("message", (msg) => {
 
 
     if (text == "/start") {
-        console.log("Start...");
+        console.log("Start... ");
+        
         console.log(msg);
   
         bot.sendMessage(chatId, `🍽 Assalomu alaykum ${firstName}!
